@@ -813,7 +813,6 @@ body {
   right: 0;
   top: 0;
   bottom: 0;
-    display: none;
 }
 .main-navication li {
   list-style: none;
@@ -842,12 +841,9 @@ body {
 }
 
 #navi:checked ~ .wrapper {
-  /*transform: translateX(-150px);*/
+  transform: translateX(-150px);
 }
 
-#navi:checked ~ .main-navication{
-    display: block;
-}
 #navi:checked ~ .main-navication span {
   opacity: 1;
   transform: translateX(0);
